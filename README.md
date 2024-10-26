@@ -58,16 +58,10 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 ### Flutter - Widget
-
-center - child 한개 
-
-column - children 여러개
-
-pup.yaml → `dependencies`
-
-패키지 추가 .pup install
-
-http://puh.dev/
+center - child 한개  
+column - children 여러개  
+pup.yaml → `dependencies`  
+패키지 추가 .pup install  
 
 ### Flutter - Layout
 
@@ -79,12 +73,8 @@ http://puh.dev/
 - PageView
 - BottomNAVIGATIONBAR
 
-재정렬
-
+### 재정렬
 code → Reformat Code with ‘dart format’
-
 <code>
-
 stf → statefullwidget
-
 stl → statelesswidget
