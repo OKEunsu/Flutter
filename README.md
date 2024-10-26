@@ -64,7 +64,6 @@ pup.yaml → `dependencies`
 패키지 추가 .pup install  
 
 ### Flutter - Layout
-
 - Row / Column
 - Container
 - ScrollView
@@ -74,7 +73,8 @@ pup.yaml → `dependencies`
 - BottomNAVIGATIONBAR
 
 ### 재정렬
-code → Reformat Code with ‘dart format’
-<code>
-stf → statefullwidget
-stl → statelesswidget
+stf → StatefulWidget
+StatefulWidget은 가변 상태를 가진 위젯입니다. 상태가 변경되면, 위젯이 다시 빌드되어 변경 사항을 반영합니다.
+
+stl → StatelessWidget
+StatelessWidget은 가변 상태가 없는 위젯입니다. 수신한 정보를 기반으로 UI를 구성하며, 시간이 지나도 변경되지 않습니다.
